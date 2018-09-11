@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<STYLE>BODY {background-color: #342398;}
+table	{background-color: #AA33BB;}
+</STYLE>
+<head>
+
+	<title>INSERTAR</title>
+</head>
+<body>
+
+<header>
+</header>
+<section>
+<article>
+<form id="form1" name="form1" metod="GET" action="insertar.php">
+ <table id="table1" widt="42%" border ="5" align="center">
+  <tr bgcolor="#AA44cc" class="texto">
+   <td colspan="2" align="center">INSERTAR FILA</TD>
+  </tr>  
+ 
+ 
+  
+	<tr>
+		<td align="right" bgcolor="#bec88">TIPO DE FILA</td>
+		<td><label for="objeto" required></label>
+		<select name="objeto" type="texto" id="objeto" style="whidth:270px">
+		<option value="NULL">seleccione</option>
+		<option value="usuario">usuario</option>
+		<option value="agencia">agencia</option>
+		<option value="puesto">puesto</option>
+		<option value="tipo_cuenta">tipo de cuenta</option>		
+		<option value="cuenta">cuenta</option>
+		
+		</select>
+		</td>
+	</tr>
+	
+	
+    
+
+	<tr bgcolor="#AA44cc"class="texto">
+		<td colspan="2" align="center" bgcolor="#AA44cc"><input type="submit" name ="button" id="button" value= "IR"/></td>
+	</tr>
+   </table> 
+  </form>
+  
+  <form id="form2" name="form2" metod="post" action="menu.html">
+
+  	<tr bgcolor="#AA44cc"class="texto">
+	<td colspan="2" align="center" bgcolor="#AA44cc"><input type="submit" name ="button1" id="button1" value= "Regresar"/></td>
+	</tr>
+  <form/>
+</article>
+</section>  
+
+
+</body>
+</html>

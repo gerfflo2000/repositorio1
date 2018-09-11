@@ -1,0 +1,52 @@
+
+
+<style>
+
+BODY {background-color: #342398;}
+
+#label1{
+  background: #33FFCC;
+  border: 1px solid #0099AA;
+}
+
+
+#menuList {
+  background-color: #00CCCC;
+  border: 1px solid #0000FF;
+  margin: 0px;
+  padding: 2px;
+  border-radius: 4px;
+  line-height:0px;
+  width:14em; /* Es necesario aportar anchura al menú para limitar el ancho de los botones */
+}
+
+#menuList li {
+  display: block; /* De este modo los elementos del menú se mostrán como bloques uno debajo de otro y hasta el ancho del menú */
+  margin: 2px;
+  padding: 0;
+  list-style: none;
+  border-radius: 2px;
+}
+
+#menuList li a, #menuList1 li a:focus {
+  display: block;
+  background-color: #99CCCC;
+  border: 1px solid #0000FF;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  font-family: Verdana,Arial,Helvetica; 
+  font-size: 12px;
+  font-weight:bold;
+  padding: 15px;/* Cuanto mayor sea el espaciado, mas grande será el area del botón. */
+  border-radius: 2px;
+}
+
+#menuList li a:hover {
+  background-color: #003399;
+  border-color: #FFF;
+  color: #FFCC00;
+  border-radius: 2px;
+}
+
+</style>
